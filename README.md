@@ -1,34 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+**README.md**
 
-## Getting Started
+**TravelBud: Your Digital Travel Companion**
 
-First, run the development server:
+**Overview**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+TravelBud is a Next.js-powered web application that simplifies the process of booking bus tickets for domestic travel within Nigeria. By digitizing the booking process, we aim to eliminate the need for physical visits to bus terminals and streamline the entire experience.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Key Features**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+* **User-Friendly Interface:** A clean and intuitive design for effortless navigation.
+* **Real-Time Bus Schedule:** Up-to-date bus schedules for various routes.
+* **Online Ticket Booking:** Convenient online booking and payment processing.
+* **Digital Ticket Delivery:** Securely delivered digital tickets via email and in-app.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**Getting Started**
 
-## Learn More
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/vixs101/travel-bud.git
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. **Install Dependencies:**
+   ```bash
+   cd travel-bud
+   pnpm install
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. **Start Development Server:**
+   ```bash
+   pnpm run dev
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. **Access the Application:**
+   Open your web browser and navigate to `http://localhost:3000`.
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<!-- **Technology Stack**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* **Next.js:** A React framework for building server-rendered and static web applications.
+* **Tailwind CSS:** A utility-first CSS framework for rapid UI development.
+* **Redux Toolkit:** A state management library for complex application states.
+* **Axios:** A promise-based HTTP client for making API requests.
+* **Stripe:** A payment processing platform. -->
+
+**Contributing**
+
+We welcome contributions from the community. Please follow these guidelines:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them with clear messages.
+4. Push your branch to your forked repository.
+5. Submit a pull request to the main repository.
+

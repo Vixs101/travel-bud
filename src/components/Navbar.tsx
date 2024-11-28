@@ -87,7 +87,7 @@ export default function Navbar() {
                                         <span className="sr-only">Notifications</span>
                                     </Link>
                                 </div>
-                                <Button variant={"outline"} className="text-base w-full">
+                                <Button variant={"outline"} className="text-base w-full border-2 border-[#FFA700]">
                                     Contact Us
                                 </Button>
                             </div>
