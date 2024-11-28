@@ -25,12 +25,12 @@ export default function Navbar() {
             </Link>
 
             {/* Desktop Navigation */}
-            <ul className="hidden md:flex justify-center items-center text-lg space-x-10">
+            <ul className="hidden md:flex justify-center items-center text-base space-x-10">
                 {navLinks.map((link) => (
                     <li key={link.label}>
                         <Link
                             href={link.href}
-                            className="hover:border-b-2 border-[#FFA700] duration-100"
+                            className="hover:border-b-2 border-[#FFA700] duration-200 "
                         >
                             {link.label}
                         </Link>
@@ -87,7 +87,7 @@ export default function Navbar() {
                                         <span className="sr-only">Notifications</span>
                                     </Link>
                                 </div>
-                                <Button variant={"outline"} className="text-base w-full">
+                                <Button variant={"outline"} className="text-base w-full border-2 border-[#FFA700]">
                                     Contact Us
                                 </Button>
                             </div>
