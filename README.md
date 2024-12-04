@@ -28,7 +28,7 @@ TravelBud is a Next.js-powered web application that simplifies the process of bo
 
 3. **Start Development Server:**
    ```bash
-   pnpm run dev
+   pnpm dev
    ```
 
 4. **Access the Application:**
