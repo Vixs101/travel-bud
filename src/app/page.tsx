@@ -1,10 +1,8 @@
 import HeroCard from "@/components/HeroCard";
-import Navbar from "../components/Navbar"
 
 export default function Home() {
   return (
     <div className="h-screen p-3 lg:px-28 w-full bg-[url('/images/worldmap.png')] bg-cover">
-      <Navbar />
       <div className="sm:h-5/6 w-full bg-[url('/images/heroImage.png')] bg-cover bg-center rounded-3xl p-4 md:pt-20 md:px-10">
         {/* div for hero items */}
         <div className="flex flex-col md:flex-row w-full gap-10 md:gap-20 lg:gap-40">
